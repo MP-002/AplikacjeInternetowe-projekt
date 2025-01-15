@@ -1,0 +1,23 @@
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    border:1px solid aquamarine;
+    margin-top: 20%;
+    padding:50px;
+    text-align: center;
+}
+
+form {
+    margin-left: 25%;
+    text-align: left;
+    
+}
+
+button {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    left:40%;
+}

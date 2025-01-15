@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(202, 255, 186);
+    font-family: Verdana;
+}
+
+h1 {
+    display: block;
+    height: 50px;
+    border-bottom: 2px solid green;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+    color: rgb(9, 94, 0);
+}
+
+.admin {
+    display: flex;
+    position: absolute;
+    line-height: 20px;
+    left:2%;
+    top:2%;
+}
+.admin>a {
+    color:green;
+    padding:0px;
+    margin:0px;
+}
+
+h2 {
+    display: block;
+    margin-top: 50px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(16, 161, 0);
+    text-shadow: 1.5px 1.5px rgb(0, 72, 0);
+    margin-bottom: 50px;
+}
+
+.dodaj {
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgb(0, 170, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.dodaj:hover {
+    background-color: rgb(99, 251, 99);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+ 
+   display: block;
+   width:100%;
+   height:100%;
+   padding-top: 30%;
+}
+
+.b {
+    display: block;
+    height: 30px;
+    width: 150px;
+    padding-top: 5px;
+}
+
+table {
+    background-color: rgb(174, 254, 175);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+th {
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+td {
+    border-bottom: 1px solid white;
+    color: green;
+    text-shadow: 1.5px 1.5px white;
+    text-align: center;
+    height:40px;
+}
+
+.u {
+    text-shadow: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid darkred;
+    cursor: pointer;
+    height:100%;
+}
+
+.u:hover {
+    border: 2px white;
+    background-color: rgb(254, 78, 78);
+
+}
+
+.s {
+    text-shadow: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width:20%;
+    border: 1px solid darkgreen;
+    cursor: pointer;
+}
+
+.s:hover {
+    border: 2px white;
+    background-color: rgb(68, 255, 39);
+
+}
+
+.e {
+    text-shadow: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width:20%;
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+
+.e:hover {
+    border: 2px white;
+    background-color: rgb(255, 115, 39);
+
+}
+
+td:last-child {
+    display: flex;
+    text-align: center;
+   justify-content: center;
+   gap:5px;
+}
+
+.alert {
+    display: flex;
+    position: absolute;
+    width:400px;
+    height:100px;
+    background-color: green;
+    border-radius: 20px;
+    left:32%;
+    top:40%;
+    opacity: 1;
+    animation: fadeOut 4s ease forwards, hide 4.3s ease forwards;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes hide {
+    0% {
+        display: flex;
+    }
+    100% {
+        display: none;
+    }
+}
+.alert>p {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color:rgb(0, 255, 17);
+    text-shadow: 0.8px 0.8px white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+
+/* Ustawienia paginacji */
+.pagination {
+    all: unset; /* Resetowanie domyślnych stylów */
+    display: flex; /* Ustawienie na flexbox, aby elementy były w jednej linii */
+    justify-content: center; /* Wyśrodkowanie linków w poziomie */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    gap: 10px; /* Odstęp między linkami */
+    font-size: 12px; /* Rozmiar czcionki */
+    height:100px;
+    color: grey;
+}
+
+.pagination a {
+    all: unset; /* Resetowanie domyślnych stylów linków */
+    color: green; /* Kolor tekstu */
+    padding: 5px 10px;
+    text-decoration: none; /* Usuwanie podkreślenia */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    margin-bottom:10px;
+}
+.pagination svg {
+    width:10px;
+}
+.pagination a:hover {
+    background-color: lightgreen; /* Zmiana koloru tła na hover */
+    cursor: pointer; /* Kursor wskazujący */
+}
+.pagination p {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pagination span {
+    margin-left: 5px;
+}
+
+.login,.logout {
+    display: flex;
+    position: absolute;
+    left: 90%;
+    top: 8%;
+    line-height:20px;
+}
+
+.alogin,.alogout {
+    padding:0;
+    margin:0;
+    color: green;
+}
+h3 {
+    
+    position: absolute;
+    right: 1%;
+    top: 2%; 
+}
+
+.dost {
+    display: inline-block;
+    width: 3%;
+    position: absolute;
+    right:1%;
+    top:25%;
+}
+.dost > button {
+    display: block;
+    width:30px;
+    height:30px;
+    border-radius: 10px;
+    margin-top: 3px;
+    
+}
+
+.aplus {
+    background-color: aliceblue;
+    font-weight: bold;
+    color:green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.aminus {
+    background-color: aliceblue;
+    color:green;
+    border: 1.5px solid green;
+    cursor: pointer;
+}
+.aplus:hover,.aminus:hover {
+    background-color: lightgreen;
+}
+.k {
+    color:yellow;
+    font-weight: bold;
+    border-color: yellow;
+    background-color: black;
+}
+
+.k:hover {
+    background-color: white;
+    cursor: pointer;
+}

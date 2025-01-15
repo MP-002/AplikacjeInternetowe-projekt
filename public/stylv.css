@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(202, 255, 186);
+    font-family: Verdana;
+}
+
+h1 {
+    display: block;
+    height: 50px;
+    border-bottom: 2px solid green;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+    color: rgb(9, 94, 0);
+}
+
+h2 {
+    display: block;
+    margin-top: 50px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(16, 161, 0);
+    text-shadow: 1.5px 1.5px rgb(0, 72, 0);
+    margin-bottom: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+div {
+    display: block;
+    width: 50%;
+    padding: 20px;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+span {
+    color:rgb(16, 161, 0);
+    font-size: larger;
+    font-style: italic;
+    text-shadow: 1px 1px greenyellow;
+}
+p {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(0, 124, 0);
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px white;
+}
+
+button {
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgb(0, 170, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(99, 251, 99);
+    font-weight: bold;
+}
